@@ -1,0 +1,76 @@
+regex
+
+1. Number
+3.14529
+-255.34
+128
+1.9e10
+123,340.00
+720p
+
+
+2. Phone number
+415-555-1234
+650-555-2345
+416)555-3456
+202 555 4567
+4035555678
+416.555.9292
+
+
+3. Email
+tom@hogwarts.com
+tom.riddle@hogwarts.com
+tom.riddle+regexone@hogwarts.com
+tom@hogwarts.eu.com
+potter@hogwarts.com
+harry@hogwarts.com
+hermione+regexone@hogwarts.com
+
+
+4. html tag
+<a>This is a link</a>
+<a href='https://regexone.com'>Link</a>
+<div class='test_style'>Test</div>
+<div>Hello <span>world</span></div>
+
+
+5. jpg, png, gif
+.bash_profile
+workspace.doc
+img0912.jpg
+updated_img0912.png
+documentation.html
+favicon.gif
+img0912.jpg.tmp
+access.lock
+
+
+6. Trim
+			The quick brown fox...
+jumps over the lazy dog.
+
+
+7. Log
+W/dalvikvm( 1553): threadid=1: uncaught exception
+E/( 1553): FATAL EXCEPTION: main
+E/( 1553): java.lang.StringIndexOutOfBoundsException
+E/( 1553): at widget.List.makeView(ListView.java:1727)	makeView ListView.java 1727
+E/( 1553): at widget.List.fillDown(ListView.java:652)	fillDown ListView.java 652
+E/( 1553): at widget.List.fillFrom(ListView.java:709)	fillFrom ListView.java 709
+
+
+8. URL
+ftp://file_server.com:21/top_secret/life_changing_plans.pdf
+https://regexone.com/lesson/introduction#section
+file://localhost:4040/zip_file
+https://s3cur3-server.com:9999/
+market://search/angry%20birds
+
+
+
+
+
+
+
+
