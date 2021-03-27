@@ -1,9 +1,18 @@
 ## Regex
 
-정규표현식(Regular Expression)이란 특정한 규칙을 가진 문자열을 표현하는데 사용하는 형식 언어
-programming language 혹은 text editor에서 문자열 검색 및 치환을 위한 용도로 사용 가능(ex. visual studio)
+- 정규표현식(Regular Expression)이란 특정한 규칙을 가진 문자열을 표현하는데 사용하는 형식 언어
+- 주어진 문자열에서 발견할 수 있는 글자 패턴을 표현한 식
+- programming language 혹은 text editor에서 문자열 검색 및 치환을 위한 용도로 사용 가능(ex. visual studio)
 
 표현 방법: **/{Expression}/{Flag}**
+
+- sql 검색
+  - 'Hi', 'Hello'로 시작하는 문장 검색
+```mysql
+SELECT *
+FROM tbl
+WHERE data REGEXP ('^Hi|^Hello');
+```
 
 ## Exprression
 ### Chracter class
@@ -47,3 +56,7 @@ programming language 혹은 text editor에서 문자열 검색 및 치환을 위
 | `g`| Global: 문자열 내 모든 패턴 탐색|
 | `i`| Ignore Case: 대소문자 무시|
 | `m`| Multi Line: 행이 바뀌어도 탐색|
+
+## 연습용 사이트
+- https://regexr.com/
+- https://regexone.com/
